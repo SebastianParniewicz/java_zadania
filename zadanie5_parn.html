@@ -1,0 +1,42 @@
+<html>
+<head>
+<script language="JavaScript">
+function WinOpen_grafika1()
+{
+window.open("grafika1.html","grafika_numer_1","toolbar=no,directories=no,menubar=no,height=350,width=250,top=800,left=200");
+}
+function WinOpen_grafika2()
+{
+window.open("grafika2.html","grafika_numer_2","toolbar=no,directories=no,menubar=no,height=350,width=250,top=200,left=450");
+}
+function WinOpen_grafika3()
+{
+window.open("grafika3.html","grafika_numer_3","toolbar=no,directories=no,menubar=no,height=350,width=250,top=100,left=700");
+}
+function WinOpen_grafika4()
+{
+window.open("grafika4.html","grafika_numer_4","toolbar=no,directories=no,menubar=no,height=350,width=250,top=10,left=950");
+}
+function okno_zamknij()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<script>
+document.write("<center>wykonał: Sebastian Parniewicz mój numer w dzienniku 15, czyli".bold().fontsize(6).fontcolor("blue")+"<br><center>");
+document.write("mam układ[(15) mod 4=0] Układ 3".bold().fontsize(6).fontcolor("green")+"<br>");
+
+</script>
+<form>
+<br><br>
+<input type="button" name="grafika1" value="grafika1" onclick="WinOpen_grafika1(' ')">
+<input type="button" name="grafika2" value="grafika2" onclick="WinOpen_grafika2(' ')">
+<input type="button" name="grafika3" value="grafika3" onclick="WinOpen_grafika3(' ')">
+<input type="button" name="grafika4" value="grafika4" onclick="WinOpen_grafika4(' ')">
+<br><br><br><br><br><br>
+<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+</form>
+</body>
+</html>
