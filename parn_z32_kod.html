@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+</head>
+<body>
+   <textarea cols="70" rows="30">
+<html>
+<head>
+   <script type="text/javascript">
+      function samochod(marka,model,konie_mechaniczne)//początek konstruktora
+      {
+      this.adres=adres;
+      this.pietra=pietra;
+      this.wysokosc=wysokosc;
+      }
+
+      wiezowiec.prototype.wypisz = function () 
+      {
+      alert(this.adres + ' ' + this.pietra+ ' ' + this.wysokosc);
+      };
+
+      var wiezowiec1 = new wiezowiec("partyzantow 9", "11 pieter", "40m"); 
+      var wiezowiec2 = new wiezowiec('dworkowa 7', '6 pieter', '20m');
+      wiezowiec1.wypisz();
+      wiezowiec2.wypisz();
+      document.write("dostęp do właściwości"+"<br>");
+      
+      document.write("wiezowiec pierwszy"+" &nbsp;adres: "+wiezowiec1.adres+" &nbsp;pietra: "+wiezowiec1.pietra+" &nbsp;wysokosc: "+wiezowiec1.wysokosc+"<br>");
+      document.write("wiezowiec drugi"+" &nbsp;adres: "+wiezowiec2.adres+" &nbsp;pietra: "+wiezowiec2.pietra+" &nbsp;wysokosc: "+wiezowiec2.wysokosc+"<br>");
+   </script>
+</head>
+<body>
+   <br>
+   programowanie obiektowe
+</body>
+</html>
+   </textarea>
+</body>
+</html>
