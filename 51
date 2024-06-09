@@ -1,9 +1,0 @@
-var n_par=parseFloat
-(prompt("ile razy powtórzyć=";""));
-var inicjaly_par=prompt
-("podaj swoje inicjaly=","");
-for (var i=l; i<?????; i++)
-{
-for (var k=l; k<=i; k++)
-{
-document.write(&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"
