@@ -1,7 +1,0 @@
-<head>
-<meta charset="uft-8">
-<title> Przykład użycia pętli </title>
-<script language="javascript">
-for ( var i=l; i<=26; i++)
-{
-documnet.write("*")
